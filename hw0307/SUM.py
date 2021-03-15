@@ -19,3 +19,4 @@ for i in range(2,101,2):#range(开始数字，结束数字，步长)
     print("i=", i)
     result=result+i
 print("rsult",result)
+# ces tijio
