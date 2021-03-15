@@ -9,4 +9,7 @@ class Calculator:
     def mul(self,a,b):
         return a*b
     def div(self,a,b):
-        return a/b
+        if b !=0:
+            print("除数不能为0！")
+        else:
+            return a/b
