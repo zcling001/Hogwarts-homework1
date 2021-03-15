@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbb297f4-7f8f-4fd3-8f10-700b408ec1a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/data.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw0307/get_datas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hogwarts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hogwarts.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw0307/testcase/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw0307/testcase/calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_calculator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +44,7 @@
     <session id="-1154176520">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.opened" value="2" />
@@ -59,15 +53,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="py" value="165" />
-          <entry key="txt" value="14" />
+          <entry key="py" value="176" />
+          <entry key="txt" value="27" />
           <entry key="yml" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="165" />
+          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="Python" value="176" />
           <entry key="YAML" value="29" />
         </counts>
       </usages-collector>
@@ -108,8 +102,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_calculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="410">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -171,9 +165,9 @@
         <option value="$PROJECT_DIR$/hw0307/SUM.py" />
         <option value="$PROJECT_DIR$/hw0307/get datas.py" />
         <option value="$PROJECT_DIR$/hw0307/get_datas.py" />
-        <option value="$PROJECT_DIR$/test_calculator.py" />
         <option value="$PROJECT_DIR$/data/data.yml" />
         <option value="$PROJECT_DIR$/hw0307/testcase/calculator.py" />
+        <option value="$PROJECT_DIR$/test_calculator.py" />
       </list>
     </option>
   </component>
@@ -195,11 +189,6 @@
             <path>
               <item name="Hogwarts-homework1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hogwarts-homework1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hogwarts-homework1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hogwarts-homework1" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hogwarts-homework1" type="b2602c69:ProjectViewProjectNode" />
@@ -386,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615815472811</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="数据驱动">
+      <created>1615823805314</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615823805314</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -423,9 +419,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15773809" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15773809" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -449,7 +444,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ceshitijiao" />
-    <option name="LAST_COMMIT_MESSAGE" value="ceshitijiao" />
+    <MESSAGE value="数据驱动" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据驱动" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/666.py" />
@@ -504,8 +500,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_calculator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="410">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
