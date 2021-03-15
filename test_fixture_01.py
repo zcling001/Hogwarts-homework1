@@ -20,3 +20,4 @@ class TestFixture01:
 
 if __name__ == '__main__':
     pytest.main(['-s', 'test_fixture_01.py'])
+    # 测试网络提交
