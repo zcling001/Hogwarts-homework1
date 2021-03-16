@@ -11,9 +11,11 @@ class TestFixture01:
     def teardown_class(self):
         print("****结束测试****")
 
-    # 参数引用
-    def test_a(self, random_int):
+    def test_zhong(self, random_int):
         print("随机数测试结果为：", random_int)
+
+    def test_use_params(self, use_params):
+        print("use_params：测试完成")
 
 
 if __name__ == '__main__':
