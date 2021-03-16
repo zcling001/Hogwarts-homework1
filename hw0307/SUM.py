@@ -15,8 +15,8 @@
 
 ''' 3）直接使用for循环，实现1~100的偶数和'''
 result = 0
-for i in range(2,101,2):#range(开始数字，结束数字，步长)
+for i in range(2, 101, 2):  # range(开始数字，结束数字，步长)
     print("i=", i)
-    result=result+i
-print("rsult",result)
+    result = result + i
+print("rsult", result)
 # ces tijio
