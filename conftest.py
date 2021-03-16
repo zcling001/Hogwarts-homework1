@@ -3,9 +3,17 @@ import random
 import pytest
 
 
-@pytest.fixture(scope='module')
+@pytest.fixture(scope='function')
 def random_int():
     return random.randint(0, 1000)
+
+@pytest.fixture(scope='module',autouse=True)
+def start():
+    print("开始执行用例")
+    yield
+    print("结束执行用例")
+
+
 
 
 @pytest.fixture(scope='session', params=["666", "爱我中华"])
