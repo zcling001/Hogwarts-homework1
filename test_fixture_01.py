@@ -1,7 +1,6 @@
 import pytest
 
 
-
 class TestFixture01:
 
     # 开始
@@ -10,12 +9,11 @@ class TestFixture01:
 
     # 结束
     def teardown_class(self):
-        print("\n****结束测试****")
+        print("****结束测试****")
 
     # 参数引用
     def test_a(self, random_int):
-        print("测试的结果是：")
-        print(random_int)
+        print("随机数测试结果为：", random_int)
 
 
 if __name__ == '__main__':
