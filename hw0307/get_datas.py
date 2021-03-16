@@ -2,7 +2,7 @@ import pytest
 import yaml
 
 def get_datas():
-    with open("D:\python workspace\home_works\Hogwarts-homework1\data\data.yml") as f:
+    with open("D:\python workspace\home_works\Hogwarts-homework1\data\data.yml", "rt", encoding="utf-8") as f:
         datas = yaml.safe_load(f)
         print(datas)
         add_datas=datas["add_datas"]

@@ -51,6 +51,6 @@ div_datas:
     - 100
     - 2
 myid:
-  - "int"
+  - "中文int"
   - "minus"
   - "bigint"

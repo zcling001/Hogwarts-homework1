@@ -1,0 +1,139 @@
+{
+  "uid" : "10a4cbdb9104ceb0",
+  "name" : "test_sub[bigint]",
+  "fullName" : "test_calculator.TestCal#test_sub",
+  "historyId" : "2f84856556d9bf0d89e6874e7ec344f0",
+  "time" : {
+    "start" : 1615904994787,
+    "stop" : 1615904994787,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCal",
+    "time" : {
+      "start" : 1615904994624,
+      "stop" : 1615904994624,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "start",
+    "time" : {
+      "start" : 1615904994623,
+      "stop" : 1615904994624,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCal::0",
+    "time" : {
+      "start" : 1615904994875,
+      "stop" : 1615904994875,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "start::0",
+    "time" : {
+      "start" : 1615904994876,
+      "stop" : 1615904994877,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "计算器测试报告"
+  }, {
+    "name" : "story",
+    "value" : "开始测试减法"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "suite",
+    "value" : "test_calculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCal"
+  }, {
+    "name" : "host",
+    "value" : "zcl-PC"
+  }, {
+    "name" : "thread",
+    "value" : "7500-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "300"
+  }, {
+    "name" : "b",
+    "value" : "200"
+  }, {
+    "name" : "expected",
+    "value" : "100"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5ef3ea05f5020ff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615904223892,
+        "stop" : 1615904223892,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "10a4cbdb9104ceb0.json",
+  "parameterValues" : [ "300", "200", "100" ]
+}
