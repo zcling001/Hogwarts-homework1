@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbb297f4-7f8f-4fd3-8f10-700b408ec1a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_cartesian_product/cartesian_product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hogwarts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hogwarts.iml" afterDir="false" />
+    <list default="true" id="cbb297f4-7f8f-4fd3-8f10-700b408ec1a6" name="Default Changelist" comment="1.提交笛卡尔积打印输出">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cartesian_product/cartesian_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cartesian_product/cartesian_product.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615901036894</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1.提交笛卡尔积打印输出">
+      <created>1616567509055</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616567509055</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -416,7 +422,8 @@
     <MESSAGE value="作业四完成" />
     <MESSAGE value="1.先控制台执行 &quot;pip install pytest-ordering&quot; 命令&#10;2.测试用例方法上使用 &quot;@pytest.mark.run(order=2)&quot; order代表执行顺序" />
     <MESSAGE value="1.完成第一第二题" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.完成第一第二题" />
+    <MESSAGE value="1.提交笛卡尔积打印输出" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.提交笛卡尔积打印输出" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/666.py" />
