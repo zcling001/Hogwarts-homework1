@@ -1,0 +1,47 @@
+[
+  {
+    "userid": "zcl001",
+    "name": "周翠玲01",
+    "department": 4,
+    "mobile": "+86 13100000001",
+    "position": "产品经理",
+    "gender": "1",
+    "email": "zcl001@gzdev.com"
+  },
+  {
+    "userid": "zcl002",
+    "name": "周翠玲02",
+    "department": 4,
+    "mobile": "+86 13100000002",
+    "position": "产品经理",
+    "gender": "1",
+    "email": "zcl002@gzdev.com"
+  },
+  {
+    "userid": "zcl003",
+    "name": "周翠玲03",
+    "department": 4,
+    "mobile": "+86 13100000003",
+    "position": "产品经理",
+    "gender": "1",
+    "email": "zcl003@gzdev.com"
+  },
+  {
+    "userid": "zcl004",
+    "name": "周翠玲04",
+    "department": 4,
+    "mobile": "+86 13100000004",
+    "position": "产品经理",
+    "gender": "1",
+    "email": "zcl004@gzdev.com"
+  },
+  {
+    "userid": "zcl005",
+    "name": "周翠玲05",
+    "department": 4,
+    "mobile": "+86 13100000005",
+    "position": "产品经理",
+    "gender": "1",
+    "email": "zcl005@gzdev.com"
+  }
+]

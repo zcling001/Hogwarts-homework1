@@ -38,50 +38,55 @@ def test_delete_members(mebers):
     print(r.json())
 
 
+def test_delete_all():
+    mebers = ["zcl001", "zcl002", "zcl003", "zcl004", "zcl005"]
+    test_delete_members(mebers)
+
+
 # 添加人员
 def test_add_members():
     add_member_url = f'https://qyapi.weixin.qq.com/cgi-bin/user/create?access_token={get_token()}'
     add_members_datas = [{
         "userid": "zcl001",
         "name": "周翠玲01",
-        "department": 4,
-        "mobile": "+86 13100000001",
+        "department": [4],
+        "mobile": "13100000001",
         "position": "产品经理",
         "gender": "1",
-        "email": "zcl001@gzdev.com"}
-        , {
-            "userid": "zcl002",
-            "name": "周翠玲02",
-            "department": 4,
-            "mobile": "+86 13100000002",
-            "position": "产品经理",
-            "gender": "1",
-            "email": "zcl002@gzdev.com"
-        }, {
-            "userid": "zcl003",
-            "name": "周翠玲03",
-            "department": 4,
-            "mobile": "+86 13100000003",
-            "position": "产品经理",
-            "gender": "1",
-            "email": "zcl003@gzdev.com"
-        }, {
-            "userid": "zcl004",
-            "name": "周翠玲04",
-            "department": 4,
-            "mobile": "+86 13100000004",
-            "position": "产品经理",
-            "gender": "1",
-            "email": "zcl004@gzdev.com"
-        }, {
-            "userid": "zcl005",
-            "name": "周翠玲05",
-            "department": 4,
-            "mobile": "+86 13100000005",
-            "position": "产品经理",
-            "gender": "1",
-            "email": "zcl005@gzdev.com"
-        }]
+        "email": "zcl001@gzdev.com"
+    }, {
+        "userid": "zcl002",
+        "name": "周翠玲02",
+        "department": [4],
+        "mobile": "13100000002",
+        "position": "产品经理",
+        "gender": "1",
+        "email": "zcl002@gzdev.com"
+    }, {
+        "userid": "zcl003",
+        "name": "周翠玲03",
+        "department": [4],
+        "mobile": "13100000003",
+        "position": "产品经理",
+        "gender": "1",
+        "email": "zcl003@gzdev.com"
+    }, {
+        "userid": "zcl004",
+        "name": "周翠玲04",
+        "department": [4],
+        "mobile": "13100000004",
+        "position": "产品经理",
+        "gender": "1",
+        "email": "zcl004@gzdev.com"
+    }, {
+        "userid": "zcl005",
+        "name": "周翠玲05",
+        "department": [4],
+        "mobile": "13100000005",
+        "position": "产品经理",
+        "gender": "1",
+        "email": "zcl005@gzdev.com"
+    }]
     for i in range(0, len(add_members_datas)):
         r = requests.post(url=add_member_url, json=add_members_datas[i])
         print(r.json())

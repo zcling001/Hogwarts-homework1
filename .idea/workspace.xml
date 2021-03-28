@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbb297f4-7f8f-4fd3-8f10-700b408ec1a6" name="Default Changelist" comment="1.提交笛卡尔积打印输出">
+      <change afterPath="$PROJECT_DIR$/data/data_memers.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cartesian_product/cartesian_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cartesian_product/cartesian_product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw0307/get_datas.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw0307/get_datas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_requests/test_contaact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_requests/test_contaact.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +100,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -110,7 +114,7 @@
       <recent name="D:\python workspace\hogwarts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.cartesian_product">
+  <component name="RunManager" selected="Python tests.pytest for test_contaact.test_add_members">
     <configuration name="SUM" type="PythonConfigurationType" factoryName="Python">
       <module name="hogwarts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,6 +158,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="get_datas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hogwarts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw0307" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw0307/get_datas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_contaact.test_add_members" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="hogwarts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,7 +195,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_contaact.test_edit_member" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_contaact.test_delete_all" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="hogwarts" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -182,23 +207,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_contaact.test_edit_member&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_contaact.test_get_memberInformation" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="hogwarts" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_requests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_contaact.test_get_memberInformation&quot;" />
+      <option name="_new_target" value="&quot;test_contaact.test_delete_all&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -220,19 +229,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.SUM" />
-      <item itemvalue="Python tests.pytest for test_contaact.test_add_members" />
-      <item itemvalue="Python tests.pytest for test_contaact.test_edit_member" />
-      <item itemvalue="Python tests.pytest for test_contaact.test_get_memberInformation" />
-      <item itemvalue="Python tests.pytest in cartesian_product.py" />
       <item itemvalue="Python.cartesian_product" />
+      <item itemvalue="Python tests.pytest in cartesian_product.py" />
+      <item itemvalue="Python.get_datas" />
+      <item itemvalue="Python tests.pytest for test_contaact.test_delete_all" />
+      <item itemvalue="Python tests.pytest for test_contaact.test_add_members" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_contaact.test_add_members" />
+        <item itemvalue="Python tests.pytest for test_contaact.test_delete_all" />
+        <item itemvalue="Python.get_datas" />
         <item itemvalue="Python.cartesian_product" />
         <item itemvalue="Python tests.pytest in cartesian_product.py" />
-        <item itemvalue="Python tests.pytest for test_contaact.test_get_memberInformation" />
-        <item itemvalue="Python tests.pytest for test_contaact.test_edit_member" />
-        <item itemvalue="Python tests.pytest for test_contaact.test_add_members" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616567509055</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1.提交笛卡尔积打印输出">
+      <created>1616594530298</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616594530298</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
