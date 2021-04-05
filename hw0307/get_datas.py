@@ -4,27 +4,19 @@ import pytest
 import yaml
 
 
-def get_datas():
-    with open("../data/data.yml", "rt", encoding="utf-8") as f:
-        datas = yaml.safe_load(f)
+# E:\pycharm_workspace\Hogwarts-homework1\data\data.yml
+def get_datas(file_name=''):
+    with open("E:/pycharm_workspace/Hogwarts-homework1/data/" + file_name, "rt", encoding="utf-8") as f:
+        if file_name.endswith(".yaml"):
+            datas = yaml.safe_load(f)
+        elif file_name.endswith(".json"):
+            datas = json.load(f)
+        else:
+            datas = None
         print(datas)
-        add_datas = datas["add_datas"]
-        sub_datas = datas["sub_datas"]
-        mul_datas = datas["mul_datas"]
-        div_datas = datas["div_datas"]
-        add_ids = datas["myid"]
-        return [add_datas, sub_datas, mul_datas, div_datas, add_ids]
-
-
-def get_members_datas():
-    with open("../data/data_memers.json", "rt", encoding="utf-8") as f:
-        json_str = f.read()
-        temp = json_str.replace("'", '"')  # 将 单引号 替换为 双引号
-        temp = json.loads(temp)  # loads 将 字符串 解码为 字典
-        print(temp)
+        return datas
 
 
 if __name__ == '__main__':
-    get_datas()
-    print("----------------------------------------------")
-    get_members_datas()
+    get_datas("data_memers.json")
+    # get_members_datas()

@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbb297f4-7f8f-4fd3-8f10-700b408ec1a6" name="Default Changelist" comment="1.提交笛卡尔积打印输出">
-      <change afterPath="$PROJECT_DIR$/data/data_memers.json" afterDir="false" />
+    <list default="true" id="cbb297f4-7f8f-4fd3-8f10-700b408ec1a6" name="Default Changelist" comment="1.完成企业微信接口实战作业">
+      <change afterPath="$PROJECT_DIR$/test_requests/rep_page/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_requests/rep_page/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_requests/rep_page/contact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_requests/testcase/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_requests/testcase/test_contact.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_memers.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_memers.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw0307/get_datas.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw0307/get_datas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cartesian_product/cartesian_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cartesian_product/cartesian_product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_fixture_01.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test_requests/test_contaact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_requests/test_contaact.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,8 +111,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../python_HW/3.30/pytest_biaobin" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -114,7 +122,7 @@
       <recent name="D:\python workspace\hogwarts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_contaact.test_add_members">
+  <component name="RunManager" selected="Python tests.pytest for test_contact.TestContact">
     <configuration name="SUM" type="PythonConfigurationType" factoryName="Python">
       <module name="hogwarts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cartesian_product" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="contact" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hogwarts" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,54 +153,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cartesian_product" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_requests/rep_page" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_cartesian_product/cartesian_product.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_requests/rep_page/contact.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="get_datas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="hogwarts" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw0307" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw0307/get_datas.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_contaact.test_add_members" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="hogwarts" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_requests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_contaact.test_add_members&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_contaact.test_delete_all" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -211,37 +182,69 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in cartesian_product.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_contact.TestContact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="hogwarts" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cartesian_product" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_requests/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cartesian_product/cartesian_product.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_contact.TestContact&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_contact.TestContact.test_add_member" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="hogwarts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_requests/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_contact.TestContact.test_add_member&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_contact.TestContact.test_token" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="hogwarts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_requests/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_contact.TestContact.test_token&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.SUM" />
-      <item itemvalue="Python.cartesian_product" />
-      <item itemvalue="Python tests.pytest in cartesian_product.py" />
-      <item itemvalue="Python.get_datas" />
+      <item itemvalue="Python tests.pytest for test_contact.TestContact.test_token" />
+      <item itemvalue="Python.contact" />
+      <item itemvalue="Python tests.pytest for test_contact.TestContact.test_add_member" />
       <item itemvalue="Python tests.pytest for test_contaact.test_delete_all" />
-      <item itemvalue="Python tests.pytest for test_contaact.test_add_members" />
+      <item itemvalue="Python tests.pytest for test_contact.TestContact" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_contaact.test_add_members" />
+        <item itemvalue="Python tests.pytest for test_contact.TestContact" />
+        <item itemvalue="Python tests.pytest for test_contact.TestContact.test_add_member" />
         <item itemvalue="Python tests.pytest for test_contaact.test_delete_all" />
-        <item itemvalue="Python.get_datas" />
-        <item itemvalue="Python.cartesian_product" />
-        <item itemvalue="Python tests.pytest in cartesian_product.py" />
+        <item itemvalue="Python.contact" />
+        <item itemvalue="Python tests.pytest for test_contact.TestContact.test_token" />
       </list>
     </recent_temporary>
   </component>
