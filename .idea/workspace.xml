@@ -2,18 +2,183 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbb297f4-7f8f-4fd3-8f10-700b408ec1a6" name="Default Changelist" comment="1.完成企业微信接口实战作业">
-      <change afterPath="$PROJECT_DIR$/test_requests/rep_page/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_requests/rep_page/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_requests/rep_page/contact.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_requests/testcase/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_requests/testcase/test_contact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/qy_wx_api.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_requests/test_qywx_add_members.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hogwarts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hogwarts.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data_memers.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_memers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw0307/get_datas.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw0307/get_datas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cartesian_product/cartesian_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cartesian_product/cartesian_product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_fixture_01.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_requests/test_contaact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_requests/test_contaact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/behaviors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/categories.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/suites.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/10a4cbdb9104ceb0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/2b6b5edf70630eed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/3617d3ec1b0238e6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/406153a7a59b79cd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/5c76838527aba11c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/5ef3ea05f5020ff4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/60993b9d1d5b3224.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/6cd3ea1caaff5818.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/6d657c6f6bfae1a8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/75f6765feeb7a9db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/7b4f69930fea6163.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/7d4c09cc3c2d4a7b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/7f033397e0d31b5a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/8d66438ba4f19e1e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/9400b0be14a3d790.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/9ffc4420bd2a2b2f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/a5646da38602d91f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/ab6c76861b31df5f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/af06c9dd92e6facb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/b4f615b442bfb576.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/bdbcee23dce94418.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/c0aa9fb57756b91b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/d0c0bf43b22e582b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/dc854b6a7c0b22b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/e31402e25e5ab94b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/e3dc4e36874b6261.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/export/influxDbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/export/prometheusData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/plugins/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/plugins/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/plugins/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/plugins/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/widgets/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/widgets/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/widgets/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/widgets/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/widgets/duration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/widgets/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/widgets/executors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/widgets/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/widgets/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/widgets/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/widgets/severity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/widgets/status-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/widgets/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/widgets/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/03a8f7cc-1713-4c59-a71d-311756091d0b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/04443c9f-433b-4e86-b7c7-5332c2cdd30d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/04fdddee-c1db-44d6-baad-6023962a20f8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/08237a82-d9b0-4f81-8943-a6c3d4059b06-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/0a38710b-ea7c-4e8a-805d-b54005409082-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/0b8905fb-d402-4759-9aca-0401851ba584-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/0efa1dcc-f240-45c5-a727-90a9811a5f26-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/103931a3-e0e5-41f5-9b0e-03926b9a781a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/146dff6d-b1eb-44ab-977f-333baeaa0ad2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/1e0df5e9-093b-412c-b82e-dc96d8d1543f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/2039ee45-2d5a-478e-b49a-d8b31f5a8dd6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/20b03831-d337-4ba8-b7ea-21cec6159dd5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/21343c65-1899-4590-a5fa-c80c4a3dd70c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/21cc8250-20ea-4d92-aad8-4c46a346bfa1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/23d91b3f-4638-409d-b333-1cbe0a837ce6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/23f6715c-da60-4bd0-8abf-c2f7d33cd92c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/2efc9476-34cf-44fa-9716-e35c48149a24-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/2fbc46db-6204-429e-8ea4-bc62779b6bfe-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/3238c342-960f-419f-b39d-9245135fbd4c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/34d0b2f9-7ac1-4cea-a8c7-b378fac971dc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/351ab30e-4df5-46ae-853b-8a9cac4ad23f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/39101644-46d1-49af-9243-ba9e6fd40ad7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/3aafab75-463d-42f2-afa3-bd410c91c939-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/3cda02e5-ccc6-4db4-8609-8c33fd285dd8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/3e73693a-477b-4e49-a3ce-7bd03d63098e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/407603c6-32a8-4109-a605-28ae6492f49f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/4107c223-e003-45b7-a0b8-a9d2f84a3464-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/4680bd06-96c3-4473-9b92-763ebab06291-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/4965164a-d8e1-4fff-88ce-717b11a777d4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/4fab657d-7b1f-4585-8ff8-4fa78b815ae9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/4fd90311-dbdb-44f0-ad86-7483f09286c1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/4ffe49e1-0296-4654-8973-02314da8aba8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/504b8edc-b1a8-4f2e-a9b4-9ee595bb983d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/5247a30b-ec1b-46a5-afc2-5c0b1e762d21-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/53bfce3e-8c46-451e-8c2a-983f7e87fbe3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/5c5abeb5-276f-40f6-b98e-7732b5634e13-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/5c923558-ac05-4534-ac5d-48a8aecb25ce-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/5cbb7594-c4a5-46d2-8c1b-f1ac39426ae3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/5d10f020-d2f5-4711-99bb-8001e4c0b973-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/5d544683-99ec-4ee0-9340-bc1b6e09f549-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/60a25eda-9a44-4363-8d59-b625bc39d687-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/64365233-2b2b-49c0-9014-7d387dfd2f8e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/656ac775-edf6-46f9-b202-dab000dba1dc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/660ce4a6-0224-46c6-bc1f-b41b043e4d26-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/664a3e46-33af-43d1-9852-3e7a25c25e0a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/6e181413-be60-4f34-a68a-919eed7b9e13-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/6ecaf478-168c-489c-97b4-4806d90618a0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/71e205fa-c937-480d-9316-3880429bdf3a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/78f5e237-9df4-411f-9091-8571d81e3178-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/79160ed0-af12-4f69-8a79-a786ff34f772-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/80147572-1df5-4462-a944-fb69e132ec8c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/80ddec55-8bc3-450c-80f9-c669c3ce5aa3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/81b34e25-7ecc-40e4-9f3b-e0249751d11a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/82aa2453-8c24-48f7-bf97-5f5094db01ef-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/8309c6fd-040c-400d-805d-60a8ef319309-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/838187d8-a6b1-4f1c-8e7e-efd37a63943c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/83f0463c-e4f2-4500-8d87-4b27ab00a474-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/84241c1f-e314-4841-9993-72bdd39f6722-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/88452814-8688-4d6f-93c4-a786639f756e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/90f35ad4-f174-43c1-b1ef-b223012b2d45-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/92c2068d-d6e6-402c-aecb-0695010c9a1a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/9665f3a0-b9a6-44dc-90d0-710354b9820a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/99bef0fb-ff34-411a-9d94-96f1deba142f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/9f2165ac-aa2b-4f4d-b5e5-1c809ca2547b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/a1b13a1e-1b0d-4cb7-9770-f26b1ec7894a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/a5c26b98-f20e-4782-9b3b-e638112d9572-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/a8fb6f88-bd93-489e-a851-6d9c81fcd2f8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ab8f71ed-901d-443e-9f92-d53f63a99a66-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/abd8b4f3-f194-4187-a36c-dc132bab67c8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ac851f42-37b9-44a6-8a65-a2114dbb3a09-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ad75d8d6-941b-4498-bcdf-d8c9c8667820-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ae11890c-32e0-429c-b131-4be0f73cbc08-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/b0af56af-2546-4702-931e-6b96b5dfdd84-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/baa4c203-29b2-44cd-befc-a25fd3a2934f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/bad918d7-9054-4ee6-807c-cce1a63f42e7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/bc53273f-3c40-43ba-9a37-30d2d95db396-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/bf359ae0-fde1-4514-80b6-d56505ea6c59-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/c1628c18-395c-4f59-b6f3-2e847a4ebe38-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/c3eb0c3d-4017-4ca6-b5d7-2f40fb68c44d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/c64241d6-3a59-4e7c-8e96-735f9484543e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/c6fb7953-f454-4078-9d2b-f297bc022acf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/c87ce26b-c212-453e-952f-18670b900fb3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/c8d69d43-bed8-48b2-bb59-7c5623564afe-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/c9613cb2-1abf-4553-a1a6-2727a17e4fc9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/c9c6c70f-da45-4a50-8650-ecafc01a7fbf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/d0c19740-37ab-4f3c-9412-312374ccc98d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/d46b1387-11a3-4f43-a389-f32d9cea6c24-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/d7940b17-5248-4e98-a5cc-2f1c2886e31b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/d7b1d82a-bbca-4c75-84c1-c69708fd7879-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/d85e19cc-e181-4007-bda8-652ea7402589-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/d9c35d07-1268-4806-9e3f-d7683163f221-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/dd3ddf55-4101-4b5a-b83b-69d3311470c7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/deccc7a1-95ec-4b0b-a7dc-5d191baeaf71-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/e0149530-7f95-46d6-bcc7-4341635d3693-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/e056a38b-6743-4aee-8cda-0ba63859df4b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/e0676020-35a2-4904-b905-40b780b013b7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/e28f6951-39e7-49c8-995e-fb2c4d365aa0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/e55978d2-d09a-4298-b384-7785528ad00b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/e83d6d3b-7865-46f1-9eed-29cac3d88954-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/eb858c9f-718f-48d4-ac3f-ef24fb016309-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/ee5607db-d97f-4e36-8665-93958cc5f9d2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/f0d6ce0c-f426-4232-b736-e9edefad6e97-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/fc92cec5-b481-4542-995f-d90727162443-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/fcd58a06-8551-4e91-af6a-16fdb69b0c74-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_requests/rep_page/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_requests/rep_page/contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_requests/test_contaact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_requests/old_test_contact.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,10 +276,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../python_HW/3.30/pytest_biaobin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/test_requests" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\pycharm_workspace\Hogwarts-homework1" />
       <recent name="E:\pycharm_workspace\Hogwarts-homework1\hw0307" />
@@ -122,7 +291,7 @@
       <recent name="D:\python workspace\hogwarts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_contact.TestContact">
+  <component name="RunManager" selected="Python.get_datas">
     <configuration name="SUM" type="PythonConfigurationType" factoryName="Python">
       <module name="hogwarts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,7 +314,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="contact" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="get_datas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hogwarts" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,33 +322,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_requests/rep_page" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw0307" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_requests/rep_page/contact.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw0307/get_datas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_contaact.test_delete_all" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="hogwarts" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_requests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_contaact.test_delete_all&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_contact.TestContact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -214,7 +367,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_contact.TestContact.test_token" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_contact.TestContact.test_token.test_add_member" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="hogwarts" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,25 +379,41 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_contact.TestContact.test_token&quot;" />
+      <option name="_new_target" value="&quot;test_contact.TestContact.test_token.test_add_member&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_qywx_add_members.TestQYWXAdd.test_add_member" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="hogwarts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_requests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_qywx_add_members.TestQYWXAdd.test_add_member&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.SUM" />
-      <item itemvalue="Python tests.pytest for test_contact.TestContact.test_token" />
-      <item itemvalue="Python.contact" />
       <item itemvalue="Python tests.pytest for test_contact.TestContact.test_add_member" />
-      <item itemvalue="Python tests.pytest for test_contaact.test_delete_all" />
       <item itemvalue="Python tests.pytest for test_contact.TestContact" />
+      <item itemvalue="Python.get_datas" />
+      <item itemvalue="Python tests.pytest for test_contact.TestContact.test_token.test_add_member" />
+      <item itemvalue="Python tests.pytest for test_qywx_add_members.TestQYWXAdd.test_add_member" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_contact.TestContact" />
+        <item itemvalue="Python.get_datas" />
+        <item itemvalue="Python tests.pytest for test_qywx_add_members.TestQYWXAdd.test_add_member" />
         <item itemvalue="Python tests.pytest for test_contact.TestContact.test_add_member" />
-        <item itemvalue="Python tests.pytest for test_contaact.test_delete_all" />
-        <item itemvalue="Python.contact" />
-        <item itemvalue="Python tests.pytest for test_contact.TestContact.test_token" />
+        <item itemvalue="Python tests.pytest for test_contact.TestContact.test_token.test_add_member" />
+        <item itemvalue="Python tests.pytest for test_contact.TestContact" />
       </list>
     </recent_temporary>
   </component>
@@ -443,6 +612,22 @@
     <MESSAGE value="1.完成第一第二题" />
     <MESSAGE value="1.提交笛卡尔积打印输出" />
     <option name="LAST_COMMIT_MESSAGE" value="1.提交笛卡尔积打印输出" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_requests/rep_page/base.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_requests/rep_page/base.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/666.py" />

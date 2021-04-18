@@ -28,6 +28,11 @@ class Contact(Base):
         r = self.s.post(url=add_member_url, json=add_members_data)
         return r.json()
 
+    # 添加人员2
+    def add_member2(self, url, params):
+        r = self.s.post(url=url, json=params)
+        return r.json()
+
     # 获取人员信息并删除测试人员角色
     def get_member(self, userid):
         params = {"userid": userid}
